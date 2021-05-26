@@ -1,0 +1,71 @@
+/* media query */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+/* to remove white space around my website */
+body {
+    margin: 0;
+    background-color: paleturquoise;
+}
+
+main {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.top-center {
+    font-size: 25px;
+}
+/* my greeting */
+.greet {
+    color: black;
+    margin-top: 10%;
+    text-align: center;
+}
+/* my counting container */
+.center {
+    text-align: center;
+    margin-top: 10%;
+}
+/* buttons */
+.button1, .button2{
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    border-radius: 3px;
+    padding: 2px 7px;
+    border: none;
+}
+/* input boxes */
+.count1, .count2 {
+    text-align: center;
+}
+/* the numbers */
+.number1, .number2 {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.bottom-center {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/* click here func */
+.here{
+    font-size: 20px;
+}
+/* shows how many times i clicked */
+.bilang {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
